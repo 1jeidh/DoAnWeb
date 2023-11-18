@@ -125,7 +125,7 @@ div#danhsachxe >div img:hover{
 
 aside#right{
 	padding-top:390px;
-	width:200px;
+	width:100%;
 	height:auto;
 	padding-left:5px;
 	padding-right:5px;
@@ -134,7 +134,7 @@ aside#right{
 aside#right>div{
 	margin-top:10px;
 	border:1px #F90 solid;
-	width:200px;
+	width:100%;
 	height:auto;
 
 }
@@ -151,7 +151,7 @@ aside#right>div>p{
 }
 aside#right>div>marquee{
 	height:260px;
-	width:200px;
+	width:100%;
 	text-align:center;
 }
 aside#right>div>marquee a{
