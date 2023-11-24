@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang admin</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp">
+    <link rel="stylesheet" href="Admin.css">
+    
+    <script>
+    </script>
+</head>
+
+<body onload="showUserList()" >
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="index.html">
+                    <span class="icon"></span>                   
+                    <span class="title"><h1>SHOP XE</h1></span>
+
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                    <span class="title">Trang chủ</span>
+                </a>
+                </li>
+                <li>
+                    <a href="Admin.html">
+                    <span class="title">Sản phẩm</span>
+                </a>
+                </li>
+                <li>
+                    <a href="customer.html">
+                    <span class="title">Khách hàng</span>
+                </a>
+                </li>
+                <li>
+                    <a href="donhang.html">
+                    <span class="title">Đơn hàng</span>
+                </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                    <span class="title">Đăng xuất</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="topbar">
+                <div class="toggle" onclick="toggleMenu();">
+                    <span> <img src="Images/hamburger.png"> </span>
+                </div>
+                <div class="search">
+                    <label>
+                        <input type="text" placeholder="Tìm kiếm">
+                    </label>
+                </div>
+                <div class="user">
+                    <img src="Images/software-engineer.png">
+                </div>
+            </div>
+
+            <div id="content">
+                <div id="leftsection">
+                    <div id="maintable">
+                        <h1>DANH SÁCH KHÁCH HÀNG</h1>
+                        <table id="userlist">
+                            <thead>
+                                <tr>
+                                    <th>STT</th>
+                                    <th>Tên khách hàng</th>
+                                    <th>Tên đăng nhập</th>                                   
+                                    <th>Mật khẩu</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Nam</td>
+                                    <td>Admin</td>
+                                    <td>admin141</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>A</td>
+                                    <td>KH01</td>
+                                    <td>123</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>B</td>
+                                    <td>KH02</td>
+                                    <td>123</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>C</td>
+                                    <td>KH03</td>
+                                    <td>123</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>D</td>
+                                    <td>KH04</td>
+                                    <td>123</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>E</td>
+                                    <td>KH05</td>
+                                    <td>123</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div id="pagination"></div>
+                    </div>
+                </div>
+                <div id="rightsection">
+                    
+                    <div class="subsection">
+                        <h1>TÌM KHÁCH HÀNG</h1>
+                        <form>
+                        <label for="tenthat">Tên khách hàng</label>
+                        <input type="text" id="tenthat">
+                        <label for="loginname">Tên đăng nhập</label>
+                        <input type="text" id="username">
+                        <button type="button" onClick="finduser()">TÌM</button>
+                        </form>
+                    </div>
+                </div>
+			</div>
+            
+		</div>
+        </div>
+    </div>
+
+    <script>
+        function toggleMenu(){
+            let toggle = document.querySelector('.toggle');
+            let navigation = document.querySelector('.navigation');
+            let main = document.querySelector('.main');
+            toggle.classList.toggle('active');
+            navigation.classList.toggle('active');
+            main.classList.toggle('active');
+
+        }
+    </script>
+</body>
+</html>
