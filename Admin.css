@@ -16,7 +16,7 @@ body{
     position: fixed;
     width: 300px;
     height: 100%;
-    background: #36a1d3;
+    background: #ad0b21;
     transition: 0.5s;
     overflow: hidden;
 }
@@ -189,7 +189,7 @@ body{
 	background-color: #ced6e0;
 }
 #content #leftsection #maintable th{
-	background-color: #36a1d3;
+	background-color: #ad0b21;
     color: white;
     height: 35px;
 	padding: 0 5px;
