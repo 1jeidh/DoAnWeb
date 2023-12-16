@@ -115,15 +115,6 @@ function createProduct() {
         {
             id: 13,
             status: 1, 
-            title: 'Chả rươi (100gr)',
-            img: './assets/img/products/thit_nuong.jpg',
-            category: 'Món mặn',
-            price: 60000,
-            desc: 'Chả rươi luôn mang đến hương vị khác biệt và "gây thương nhớ" hơn hẳn so với các loại chả khác. Rươi béo càng ăn càng thấy ngậy. Thịt thơm quyện mùi thì là và vỏ quýt rất đặc sắc. Chắc chắn sẽ là một món ăn rất hao cơm'
-        },
-        {
-            id: 14,
-            status: 1, 
             title: 'Lead 2009',
             img: './assets/img/products/lead-2009.jpg',
             category: 'Lead',
@@ -131,7 +122,7 @@ function createProduct() {
             desc: 'sth'
         },
         {
-            id: 15,
+            id: 14,
             status: 1, 
             title: 'Lead 2010',
             img: './assets/img/products/lead-2010.jpg',
@@ -140,7 +131,7 @@ function createProduct() {
             desc: 'sth'
         },
         {
-            id: 16,
+            id: 15,
             status: 1, 
             title: 'Lead 2011',
             img: './assets/img/products/lead-2011.jpg',
@@ -149,7 +140,7 @@ function createProduct() {
             desc: 'sth'
         },
         {
-            id: 17,
+            id: 16,
             status: 1, 
             title: 'Lead 2012',
             img: './assets/img/products/lead-2012.jpg',
@@ -158,7 +149,7 @@ function createProduct() {
             desc: 'sth'
         },
         {
-            id: 18,
+            id: 17,
             status: 1, 
             title: 'Lead 2019',
             img: './assets/img/products/lead-2019.jpg',
@@ -167,7 +158,7 @@ function createProduct() {
             desc: 'sth'
         },
         {
-            id: 19,
+            id: 18,
             status: 1, 
             title: 'Bánh cookie dừa',
             img: './assets/img/products/lead-2020.jpg',
@@ -176,7 +167,7 @@ function createProduct() {
             desc: 'sth'
         },
         {
-            id: 20,
+            id: 19,
             status: 1, 
             title: 'Lead 2023',
             img: './assets/img/products/lead-2023.jpg',
@@ -185,7 +176,7 @@ function createProduct() {
             desc: 'sth'
         },
         {
-            id: 21,
+            id: 20,
             status: 1, 
             title: 'Raider 2022',
             category: 'Raider',
@@ -194,17 +185,16 @@ function createProduct() {
             desc: 'sth'
         },
         {
-            id: 22,
+            id: 21,
             status: 1, 
             title: 'Raider R150',
             category: 'Raider',
             img: './assets/img/products/raider-R150.png',
             price: 55000000,
-            desc: 'Tôm được chiên vàng giòn bên ngoài, bên trong thịt tôm vẫn mềm, kết hợp cùng sốt bơ tỏi thơm nức . Tôm tươi được Bếp Hoa chiên theo bí quyết riêng nên phần thịt tôm bên trong sẽ có hương vị thơm ngon đặc biệt, sốt bơ tỏi béo ngậy hấp dẫn. Ăn kèm bánh mỳ rất hợp'
+            desc: 'sth'
         },
-
         {
-            id: 23,
+            id: 22,
             status: 1, 
             title: 'Wave Alpha',
             category: 'Wave',
@@ -214,7 +204,7 @@ function createProduct() {
         },
 
         {
-            id: 24,
+            id: 23,
             status: 1, 
             title: 'Wave RSX',
             img: './assets/img/products/wave-rsx.png',
@@ -222,8 +212,9 @@ function createProduct() {
             price: 35000000,
             desc: 'sth'
         },
+
         {
-            id: 25,
+            id: 24,
             status: 1, 
             title: 'Wave S/RS',
             img: './assets/img/products/wave-srs.jpg',
@@ -231,9 +222,8 @@ function createProduct() {
             price: 35000000,
             desc: 'sth.'
         },
-
         {
-            id: 26,
+            id: 25,
             status: 1, 
             title: 'Winner 2017',
             category: 'Winner',
@@ -243,7 +233,7 @@ function createProduct() {
         },
 
         {
-            id: 27,
+            id: 26,
             status: 1, 
             title: 'Winner 2018',
             category: 'Winner',
@@ -253,7 +243,7 @@ function createProduct() {
         },
 
         {
-            id: 28,
+            id: 27,
             status: 1, 
             title: 'Winner 2019',
             category: 'Winner',
